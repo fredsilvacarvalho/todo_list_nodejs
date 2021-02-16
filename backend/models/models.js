@@ -3,7 +3,6 @@ const axios = require("axios")
 const API_KEY = '04f90fb21734c7db6d1e0448a31cbd04'
 const MAIL_CHECK_URL = 'https://apilayer.net/api/check?access_key=' + API_KEY
 const CAT_FACTS_URL = 'https://cat-fact.herokuapp.com/facts/random?animal_type=dog&amount=3'
-const util = require('util')
 
 const pool = new Pool({
   user: 'postgres',
